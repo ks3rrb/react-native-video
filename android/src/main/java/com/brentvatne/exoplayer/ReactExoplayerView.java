@@ -764,7 +764,7 @@ public class ReactExoplayerView extends FrameLayout implements
 
         PlaybackParameters params = new PlaybackParameters(rate, 1f);
         player.setPlaybackParameters(params);
-        changeAudioOutput(this.audioOutput);
+        // changeAudioOutput(this.audioOutput);
 
         if(showNotificationControls) {
             setupPlaybackService();
